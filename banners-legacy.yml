@@ -1,0 +1,530 @@
+banners:
+  enable: true
+
+  menu:
+    title: "Bannières"
+    rows: 6
+    fill-empty-slots: true
+    material: BANNER
+    data: 0
+    amount: 1
+    slot: 50
+    displayname: "&bBannières"
+    lore:
+      - ""
+      - "&7Affichez-vous avec une bannière épique"
+      - "&7sur le dessus de la tête."
+      - ""
+      - "&3Vous possédez &b%current%&7/&b%maximum%&3!"
+      - ""
+      - "&7Cliquez gauche souris pour ouvrir le menu!"
+      - "&7Cliquez droit pour déséquiper vos bannières"
+
+  items:
+    go-back:
+      enable: true
+      material: BED
+      data: 0
+      amount: 1
+      slot: 4
+      custom-model-data: 0
+      displayname: "&aRetour"
+      lore: [ ]
+
+    previous-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 45
+      custom-model-data: 0
+      displayname: "&aPage précédente"
+      lore: [ ]
+
+    next-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 53
+      custom-model-data: 0
+      displayname: "&aPage suivante"
+      lore: [ ]
+
+  cosmetics:
+    pug:
+      enable: true
+      name: "&bCarlin"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 10
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Qui n'aime pas les carlins?"
+
+    happy-sheep:
+      enable: true
+      name: "&bMoutons heureux"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 11
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Mignon mouton duveteux!"
+
+    rabbit:
+      enable: true
+      name: "&bLapin"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 12
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Il aime les carottes!"
+
+    goose:
+      enable: true
+      name: "&bOie"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 13
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Honk honk!"
+
+    panda:
+      enable: true
+      name: "&bPanda"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 14
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Aime le bambou et les gâteaux."
+
+    fox:
+      enable: true
+      name: "&bRenard"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 15
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Voleurs d'orange."
+
+    octopus:
+      enable: true
+      name: "&bPieuvre"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 16
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Peut être facilement confondu avec le calmar."
+
+    crown:
+      enable: true
+      name: "&bCouronne"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 19
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Devenir un dirigeant."
+
+    sun-flower:
+      enable: true
+      name: "&bTournesol"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 20
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Nous sommes tous des tournesols dorés à l'intérieur."
+
+    rose:
+      enable: true
+      name: "&bRose"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 21
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Attention aux épines."
+
+    pineapple:
+      enable: true
+      name: "&bAnanas"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 22
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Stylo Ananas Pomme Stylo"
+
+    taco:
+      enable: true
+      name: "&bTaco"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 23
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Souvent servis sans gluten."
+
+    heart:
+      enable: true
+      name: "&bLe cœur"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 24
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Quelle est la profondeur de votre amour ?"
+
+    speech-bubble:
+      enable: true
+      name: "&bBulle d'information"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 25
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Exprimez-vous."
+
+    disco:
+      enable: true
+      name: "&bDisco"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 28
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Montrez-moi vos pas de danse."
+
+    the-united-states-of-america:
+      enable: true
+      name: "&bLes États-Unis d'Amérique"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 29
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Combien d'étoiles y a-t-il sur le drapeau ?"
+
+    sweden:
+      enable: true
+      name: "&bSuède"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 30
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7La bannière préférée de Notch !"
+
+    sword:
+      enable: true
+      name: "&bL'épée"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 31
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7C'est Excalibur!"
+
+    pirate-skull:
+      enable: true
+      name: "&bCrâne de pirate"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 32
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7YaRrr!"
+
+    ender-dragon:
+      enable: true
+      name: "&bEnder Dragon"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 33
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Vous avez fait tout ce chemin jusqu'ici ?"
+
+    wither:
+      enable: true
+      name: "&bWither"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 34
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Attention aux crânes !"
+
+    fire:
+      enable: true
+      name: "&bFire"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 37
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Restez au chaud!"
+
+    snowflake:
+      enable: true
+      name: "&bFlocon de neige"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 38
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Le flocon de neige est le papillon de l'hiver."
+
+    present:
+      enable: true
+      name: "&bPrésent"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 39
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Joyeuses fêtes!"
+
+    wreath:
+      enable: true
+      name: "&bCouronne"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 40
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Pas aussi beau qu'un arbre de Noël."
+
+    santa-hat:
+      enable: true
+      name: "&bBonnet de Père Noël"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 41
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Je crois au Père Noël !"
+
+    candy-cane:
+      enable: true
+      name: "&bCanne à sucre"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 42
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Mmm, yummy!"
+
+    snowy-tree:
+      enable: true
+      name: "&bArbre à neige"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: BANNER
+      data: 0
+      amount: 1
+      slot: 43
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7C'est un arbre, mais blanc."
+
+# Do not edit this!
+config-version: 1
