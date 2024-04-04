@@ -26,10 +26,10 @@
 
 ❌ music-legacy.yml
 
-particle-effects-legacy.yml
+❌ particle-effects-legacy.yml
 
-pets-legacy.yml
+❌ pets-legacy.yml
 
-statuses.yml
+❌ statuses.yml
 
-treasure-chests-legacy.yml
+❌ treasure-chests-legacy.yml
