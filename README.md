@@ -1,6 +1,6 @@
 # Pro Cosmetique [englais - francais] 
 
-## traduction acomplis
+## traduction 0%
 
 ❌ arrow-effects-legacy.yml  [ANNULE]
 
@@ -33,3 +33,4 @@
 ❌ statuses.yml
 
 ❌ treasure-chests-legacy.yml
+___
