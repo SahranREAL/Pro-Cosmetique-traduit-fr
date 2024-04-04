@@ -12,7 +12,7 @@
 
 ❌ death-effects-legacy.yml  [ANNULE] 
 
-❌ emotes-legacy.yml
+✅ emotes-legacy.yml
 
 ❌ gadgets-legacy.yml
 
