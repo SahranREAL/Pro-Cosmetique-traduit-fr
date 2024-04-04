@@ -1,10 +1,10 @@
 # Pro Cosmetique [englais - francais] 
 
-## traduction 6,25 %
+## traduction 12,5%
 
 ❌ arrow-effects-legacy.yml  [ANNULE]
 
-❌ balloons-legacy.yml
+✅ balloons-legacy.yml
 
 ❌ banners-legacy.yml
 
