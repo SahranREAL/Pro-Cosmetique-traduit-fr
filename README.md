@@ -6,7 +6,7 @@
 
 ✅ balloons-legacy.yml
 
-❌ banners-legacy.yml
+✅ banners-legacy.yml
 
 ✅ config-legacy.yml
 
