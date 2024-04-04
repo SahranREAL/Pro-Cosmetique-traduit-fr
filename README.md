@@ -1,4 +1,4 @@
-# Pro Cosmetique [englais - francais] 
+# Pro Cosmetique [englais -> francais] 
 
 ## traduction 25%
 
