@@ -1,0 +1,294 @@
+emotes:
+  enable: true
+
+  menu:
+    title: "Emotes"
+    rows: 4
+    fill-empty-slots: true
+    material: SKULL_ITEM
+    data: 3
+    amount: 1
+    slot: 32
+    displayname: "&bEmotes"
+    lore:
+      - ""
+      - "&7Let the others know what mood"
+      - "&7you are at!"
+      - ""
+      - "&3You own &b%current%&7/&b%maximum%&3!"
+      - ""
+      - "&7Cliquez gauche pour ouvrir le menu!"
+      - "&7Cliquez droit pour déséquiper vos ballons!"
+
+  items:
+    go-back:
+      enable: true
+      material: BED
+      data: 0
+      amount: 1
+      slot: 4
+      custom-model-data: 0
+      displayname: "&aRetour"
+      lore: [ ]
+
+    previous-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 45
+      custom-model-data: 0
+      displayname: "&aPage précédente"
+      lore: [ ]
+
+    next-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 53
+      custom-model-data: 0
+      displayname: "&aPage suivante"
+      lore: [ ]
+
+  cosmetics:
+    happy:
+      enable: true
+      name: "&bHeureux"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 10
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Montrez à tout le monde à quel point vous êtes heureux"
+
+    cheeky:
+      enable: true
+      name: "&bEffronté"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 11
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Vous êtes sur le point de faire des bêtises ?"
+
+    cool:
+      enable: true
+      name: "&bCool"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 12
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Hm, cool!"
+
+    wink:
+      enable: true
+      name: "&bClin d'œil"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 13
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7J'ai compris !"
+
+    in-love:
+      enable: true
+      name: "&bL'amour"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 14
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Des papillons dans l'estomac ?"
+
+    surprised:
+      enable: true
+      name: "&bSurpris"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 15
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Je ne sais pas quoi dire !"
+
+    dizzy:
+      enable: true
+      name: "&bÉtourdi"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 16
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Les montagnes russes ne sont peut-être pas faites pour vous ?"
+
+    sleepy:
+      enable: true
+      name: "&bSommeil"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 19
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Zzz..."
+
+    sad:
+      enable: true
+      name: "&bTriste"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 20
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Quelque chose vous a rendu triste ?"
+
+    deal-with-it:
+      enable: true
+      name: "&bFaire avec"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 21
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Certains sont meilleurs que d'autres !"
+
+    rage:
+      enable: true
+      name: "&bLa rage"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 22
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Quelqu'un vous a-t-il mis en colère ?"
+        - "&7Montrez-leur avec cette emote."
+
+    rip:
+      enable: true
+      name: "&bRIP"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 23
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Me manquera-t-on ?"
+
+    spicy:
+      enable: true
+      name: "&bÉpicé"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 24
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Ce piment était beaucoup trop fort!"
+
+    sun-tan:
+      enable: true
+      name: "&bBronzage"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 25
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7On dirait que tu es resté toi aussi"
+        - "&7longtemps au soleil."
+
+# Do not edit this!
+config-version: 1
