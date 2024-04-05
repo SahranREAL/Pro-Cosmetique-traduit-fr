@@ -12,10 +12,9 @@ emotes:
     displayname: "&bEmotes"
     lore:
       - ""
-      - "&7Let the others know what mood"
-      - "&7you are at!"
+      - "&7Faites part aux autres de votre humeur"
       - ""
-      - "&3You own &b%current%&7/&b%maximum%&3!"
+      - "&3Vous possédez &b%current%&7/&b%maximum%&3!"
       - ""
       - "&7Cliquez gauche pour ouvrir le menu!"
       - "&7Cliquez droit pour déséquiper vos ballons!"
