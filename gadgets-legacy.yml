@@ -1,0 +1,648 @@
+gadgets:
+  enable: true
+
+  menu:
+    title: "Gadgets"
+    rows: 5
+    fill-empty-slots: true
+    material: PISTON_BASE
+    data: 0
+    amount: 1
+    slot: 30
+    displayname: "&bGadgets"
+    lore:
+      - ""
+      - "&7Toutes sortes d'objets loufoques"
+      - "&7à utiliser sur vos amis et"
+      - "&7ennemis."
+      - ""
+      - "&3Vous possédez &b%current%&7/&b%maximum%&3!"
+      - ""
+      - "&7Cliquez gauche souris pour ouvrir le menu!"
+      - "&7Cliquez droit pour déséquiper vos bannières"
+
+  items:
+    go-back:
+      enable: true
+      material: BED
+      data: 0
+      amount: 1
+      slot: 4
+      custom-model-data: 0
+      displayname: "&aRetour"
+      lore: [ ]
+
+    previous-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 45
+      custom-model-data: 0
+      displayname: "&aPage précédente"
+      lore: [ ]
+
+    next-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 53
+      custom-model-data: 0
+      displayname: "&aPage suivante"
+      lore: [ ]
+
+  settings:
+    # This feature allows you to set the slot for the gadget item in your inventory.
+    slot: 0
+
+  cosmetics:
+    ethereal-pearl:
+      enable: true
+      name: "&bPerle éthérée"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 5.0
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 250
+        infinity: false
+      material: ENDER_PEARL
+      data: 0
+      amount: 1
+      slot: 10
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Les endermen ne seront pas contents"
+        - "&7une fois qu'ils auront découvert que nous avons volé"
+        - "&7ces enderpearls!"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    fireworks:
+      enable: true
+      name: "&bFeux d'artifice"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 1.0
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 150
+        infinity: false
+      material: FIREWORK
+      data: 0
+      amount: 1
+      slot: 11
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Avez-vous besoin de célébrer"
+        - "&7quelqu'un ? Ces feux d'artifice"
+        - "&7devrait faire l'affaire!"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9!"
+
+    tnt:
+      enable: true
+      name: "&bTNT"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 3.0
+      ammo:
+        purchasable: true
+        purchase-amount: 10
+        cost: 250
+        infinity: false
+      material: TNT
+      data: 0
+      amount: 1
+      slot: 12
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Lancez ces TNT sur la personne"
+        - "&7dont vous voulez vous débarrasser !"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9!"
+
+    paintball:
+      enable: true
+      name: "&bPaintball"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 0.3
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 100
+        infinity: false
+      material: GOLD_BARDING
+      data: 0
+      amount: 1
+      slot: 13
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Pourquoi est-ce si ennuyeux ici ?"
+        - "&7Répandre les couleurs dans le monde!"
+        - ""
+        - "&bVous êtes propriétaire &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    bat-blaster:
+      enable: true
+      name: "&bBat Blaster"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 5.0
+      duration: 4.0
+      ammo:
+        purchasable: true
+        purchase-amount: 15
+        cost: 250
+        infinity: false
+      material: IRON_BARDING
+      data: 0
+      amount: 1
+      slot: 14
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Déclencher des vagues de terreur"
+        - "&7battez les gens que vous n'aimez pas !v"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    confetti:
+      enable: true
+      name: "&bConfetti"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 0.3
+      ammo:
+        purchasable: true
+        purchase-amount: 50
+        cost: 100
+        infinity: false
+      material: BLAZE_ROD
+      data: 0
+      amount: 1
+      slot: 15
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Surprendre quelqu'un avec des"
+        - "&7des couleurs magnifiques!"
+        - ""
+        - "&bVous êtes propriétaire &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    party-popper:
+      enable: true
+      name: "&bParty Popper"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 20.0
+      duration: 12.0
+      ammo:
+        purchasable: true
+        purchase-amount: 10
+        cost: 300
+        infinity: false
+      material: CAKE
+      data: 0
+      amount: 1
+      slot: 16
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Une fête pas comme les autres!"
+        - ""
+        - "&bVous êtes propriétaire &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    coin-party-bomb:
+      enable: true
+      name: "&bCoin Party Bomb"
+      can-be-found: true
+      purchasable: true
+      cost: 20000
+      rarity: RARE
+      cooldown: 50.0
+      duration: 30.0
+      ammo:
+        purchasable: true
+        purchase-amount: 1
+        cost: 500
+        infinity: false
+      material: DOUBLE_PLANT
+      data: 0
+      amount: 1
+      slot: 19
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Tu seras le joueur préféré de tous"
+        - "&7une fois que vous avez lancé l'un d'entre eux !"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    merry-go-round:
+      enable: true
+      name: "&bMerry-Go-Round"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      cooldown: 80.0
+      duration: 60.0
+      ammo:
+        purchasable: true
+        purchase-amount: 5
+        cost: 600
+        infinity: false
+      material: MINECART
+      data: 0
+      amount: 1
+      slot: 20
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Weeee, je n'ai jamais eu"
+        - "&7plus drôlerrrr !"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    rocket:
+      enable: true
+      name: "&bRocket"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      cooldown: 30.0
+      ammo:
+        purchasable: true
+        purchase-amount: 5
+        cost: 500
+        infinity: false
+      material: IRON_BLOCK
+      data: 0
+      amount: 1
+      slot: 21
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Préparez-vous à votre plus grande"
+        - "&7l'aventure jamais!"
+        - ""
+        - "&bVous êtes propriétaire &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    trampoline:
+      enable: true
+      name: "&bTrampoline"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      cooldown: 40.0
+      duration: 35.0
+      ammo:
+        purchasable: true
+        purchase-amount: 10
+        cost: 500
+        infinity: false
+      material: WOOL
+      data: 15
+      amount: 1
+      slot: 22
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Viens et rebondis avec moi!"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    disco-ball:
+      enable: true
+      name: "&bDisco Ball"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 50.0
+      duration: 15.0
+      ammo:
+        purchasable: true
+        purchase-amount: 5
+        cost: 250
+        infinity: false
+      material: STAINED_GLASS
+      data: 11
+      amount: 1
+      slot: 23
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Tais-toi et danse avec moi !"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9!"
+
+    melon-launcher:
+      enable: true
+      name: "&bMelon Launcher"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 4.0
+      ammo:
+        purchasable: true
+        purchase-amount: 20
+        cost: 150
+        infinity: false
+      material: MELON_BLOCK
+      data: 0
+      amount: 1
+      slot: 24
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Tirez sur des melons et ramassez-les pour gagner en vitesse.!"
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    grappling-hook:
+      enable: true
+      name: "&bGrappling Hook"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      cooldown: 1.0
+      ammo:
+        purchasable: true
+        purchase-amount: 50
+        cost: 300
+        infinity: false
+      material: FISHING_ROD
+      data: 0
+      amount: 1
+      slot: 25
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Lancez et tirez !"
+        - ""
+        - "&bVous possédez &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    bombman:
+      enable: true
+      name: "&bBombman"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      cooldown: 8.0
+      ammo:
+        purchasable: true
+        purchase-amount: 10
+        cost: 300
+        infinity: false
+      material: LEVER
+      data: 0
+      amount: 1
+      slot: 28
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Déclencher jusqu'à 3 TNT!"
+        - ""
+        - "&bVous êtes propriétaire &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9!"
+
+    explosive-sheep:
+      enable: true
+      name: "&bExplosive Sheep"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 18.0
+      duration: 6.0
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 450
+        infinity: false
+      material: WOOL
+      data: 14
+      amount: 1
+      slot: 29
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Un mouton explose et de nombreux"
+        - "&7Les moutons sont libérés."
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    flesh-hook:
+      enable: true
+      name: "&bFlesh Hook"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 2.0
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 350
+        infinity: false
+      material: TRIPWIRE_HOOK
+      amount: 1
+      slot: 30
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Se faire des amis en les tirant"
+        - "&7vers vous !"
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    wither-missile:
+      enable: true
+      name: "&bWither Missile"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 15.0
+      duration: 10.0
+      ammo:
+        purchasable: true
+        purchase-amount: 15
+        cost: 300
+        infinity: false
+      material: SKULL_ITEM
+      data: 1
+      amount: 1
+      slot: 31
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Profitez d'une balade sur un crâne de flétrissure!"
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Ammo craftable for &e%ammo_cost% coins&9!"
+
+    chicken-parachute:
+      enable: true
+      name: "&bChicken Parachute"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      cooldown: 20.0
+      ammo:
+        purchasable: true
+        purchase-amount: 10
+        cost: 250
+        infinity: false
+      material: FEATHER
+      data: 0
+      amount: 1
+      slot: 32
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Qui a dit que les poulets ne pouvaient pas être utilisés ?"
+        - "&7comme un parachute?"
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+    cowboy:
+      enable: true
+      name: "&bCowboy"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      cooldown: 15.0
+      ammo:
+        purchasable: true
+        purchase-amount: 30
+        cost: 100
+        infinity: false
+      material: SADDLE
+      data: 0
+      amount: 1
+      slot: 33
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Cliquez droit sur une personne pour la chevaucher."
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% pièces&9!"
+
+    soccerball:
+      enable: true
+      name: "&bSoccerball"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      cooldown: 70.0
+      duration: 60.0
+      ammo:
+        purchasable: true
+        purchase-amount: 20
+        cost: 200
+        infinity: false
+      material: SLIME_BLOCK
+      data: 0
+      amount: 1
+      slot: 34
+      page: 1
+      displayname: "&b%ammo% %name%"
+      lore:
+        - ""
+        - "&7Voulez-vous jouer au football ?"
+        - ""
+        - "&bVous possédez actuellement &7%ammo%&b."
+        - ""
+        - "&9Les munitions peuvent être fabriquées pour &e%ammo_cost% coins&9 !"
+
+# Do not edit this!
+config-version: 1
