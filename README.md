@@ -1,6 +1,6 @@
 # Pro Cosmetique [englais -> francais] 
 
-## traduction 25%
+## traduction 31.25%
 
 ❌ arrow-effects-legacy.yml  [ANNULE]
 
@@ -14,7 +14,7 @@
 
 ✅ emotes-legacy.yml
 
-❌ gadgets-legacy.yml
+✅ gadgets-legacy.yml
 
 ❌ messages.yml
 
