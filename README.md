@@ -18,7 +18,7 @@
 
 ❌ messages.yml
 
-❌ miniatures-legacy.yml
+✅ miniatures-legacy.yml
 
 ❌ morphs-legacy.yml
 
