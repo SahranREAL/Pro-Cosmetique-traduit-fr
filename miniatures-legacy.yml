@@ -1,0 +1,721 @@
+miniatures:
+  enable: true
+
+  menu:
+    title: "Miniatures"
+    rows: 6
+    fill-empty-slots: true
+    material: SKULL_ITEM
+    data: 2
+    amount: 1
+    slot: 48
+    displayname: "&bMiniatures"
+    lore:
+      - ""
+      - "&7Ces petites créatures suivront"
+      - "&7dans le monde."
+      - ""
+      - "&3Vous possédez &b%current%&7/&b%maximum%&3!"
+      - ""
+      - "&7Cliquez gauche pour ouvrir le menu!"
+      - "&7Cliquez droit pour déséquiper vos ballons!"
+
+  items:
+    go-back:
+      enable: true
+      material: BED
+      data: 0
+      amount: 1
+      slot: 4
+      custom-model-data: 0
+      displayname: "&aRetour"
+      lore: [ ]
+
+    previous-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 45
+      custom-model-data: 0
+      displayname: "&aPage précédente"
+      lore: [ ]
+
+    next-page:
+      material: ARROW
+      data: 0
+      amount: 1
+      slot: 53
+      custom-model-data: 0
+      displayname: "&aPage suivante"
+      lore: [ ]
+
+  cosmetics:
+    astronaut:
+      enable: true
+      name: "&bAstronaute"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 10
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Votre astronaute personnel."
+
+    tiki:
+      enable: true
+      name: "&bTiki"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 11
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Grand sourire mais peut parfois"
+        - "&7devenir un peu effrayantes."
+
+    devil:
+      enable: true
+      name: "&bDiable"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: LEGENDARY
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 12
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Pour une raison ou une autre, le diable"
+        - "&7vous suit partout."
+
+    ghost:
+      enable: true
+      name: "&bFantôme"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 13
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Effrayant ! Bouh !"
+
+    vampire:
+      enable: true
+      name: "&bVampire"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 14
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Un vampire a besoin de sang pour survivre..."
+
+    witch:
+      enable: true
+      name: "&bSorcière"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 15
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7La possibilité de maudire quelqu'un est géniale !"
+
+    skeleton:
+      enable: true
+      name: "&bSquelette"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 0
+      amount: 1
+      slot: 16
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Un autre archer défensif serait le bienvenu!"
+
+    zombie:
+      enable: true
+      name: "&bZombie"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 2
+      amount: 1
+      slot: 19
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Un petit zombie vous suivra partout."
+
+    spider:
+      enable: true
+      name: "&bAraignée"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 20
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Une morsure peut coûter la vie à quelqu'un."
+
+    enderman:
+      enable: true
+      name: "&bEnderman"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 21
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Il vous téléporte loin du danger !"
+
+    brown-bear:
+      enable: true
+      name: "&bOurs brun"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 22
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Nourrissez-le de poissons !"
+
+    koala-bear:
+      enable: true
+      name: "&bOurs Koala"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 23
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Voulez-vous un câlin ?"
+
+    panda:
+      enable: true
+      name: "&bPanda"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 24
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Cette mignonne vous suivra partout !"
+
+    monkey:
+      enable: true
+      name: "&bSinge"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 25
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Voulez-vous une banane ?"
+
+    elephant:
+      enable: true
+      name: "&bÉléphant"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 28
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Mignon petit éléphant!"
+
+    tiger:
+      enable: true
+      name: "&bTigre"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 29
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Une fourrure si douce !"
+
+    zebra:
+      enable: true
+      name: "&bZèbre"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 30
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Peut-on monter un zèbre ??"
+
+    chicken:
+      enable: true
+      name: "&bPoulet"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 31
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Un poulet volant."
+
+    cow:
+      enable: true
+      name: "&bVache"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 32
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Mooo..."
+
+    sheep:
+      enable: true
+      name: "&bMoutons"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 33
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Oh, les moutons !"
+
+    iron-golem:
+      enable: true
+      name: "&bIron Golem"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 34
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Première fois que je vois cette créature"
+        - "&7comme un bébé?"
+
+    bunny:
+      enable: true
+      name: "&bLapin"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 37
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Est-ce le lapin de Pâques ??"
+
+    fox:
+      enable: true
+      name: "&bRenard"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 38
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Cette mignonne vous suivra partout !"
+
+    parrot:
+      enable: true
+      name: "&bPerroquet"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 39
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Cette mignonne vous suivra partout !"
+
+    ladybug:
+      enable: true
+      name: "&bCoccinelle"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 40
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Combien de points noirs a une coccinelle ?"
+        - "&7sur sa coquille ?"
+
+    snail:
+      enable: true
+      name: "&bEscargot"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 41
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Oh un escargot."
+
+    turtle:
+      enable: true
+      name: "&bTortue"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 42
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Cette mignonne vous suivra partout !"
+
+    dolphin:
+      enable: true
+      name: "&bDauphin"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 43
+      page: 1
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Ce dauphin vous suivra partout!"
+
+    shark:
+      enable: true
+      name: "&bRequin"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 10
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Ce requin a des dents très pointues !"
+
+    snowman:
+      enable: true
+      name: "&bBonhomme de neige"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 11
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Qu'il neige !"
+
+    santa-claus:
+      enable: true
+      name: "&bPère Noël"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 12
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Il t'observe tout le temps !"
+
+    stitch:
+      enable: true
+      name: "&bStitch"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 13
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Tout le monde aime Stitch!"
+
+    mario:
+      enable: true
+      name: "&bMario"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 14
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7It's meeee, Marioooooo!"
+
+    yoshi:
+      enable: true
+      name: "&bYoshi"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 15
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Vous le reconnaîtrez peut-être dans un autre jeu."
+
+    toad:
+      enable: true
+      name: "&bToad"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 16
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Il vient du Royaume Champignon."
+
+    doge:
+      enable: true
+      name: "&bChien"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 19
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7WOW."
+
+    dwarf:
+      enable: true
+      name: "&bNain"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 20
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Un mignon petit nain de la Saint-Patrick!"
+
+    donald-duck:
+      enable: true
+      name: "&bDonald Duck"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: RARE
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 21
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Quack quack!"
+
+    ronald:
+      enable: true
+      name: "&bRonald"
+      can-be-found: true
+      purchasable: true
+      cost: 2000
+      rarity: COMMON
+      material: SKULL_ITEM
+      data: 3
+      amount: 1
+      slot: 22
+      page: 2
+      displayname: "%name%"
+      lore:
+        - ""
+        - "&7Voulez-vous un hamburger?"
+
+# Do not edit this!
+config-version: 1
