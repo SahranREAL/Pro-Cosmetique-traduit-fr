@@ -16,7 +16,7 @@
 
 ✅ gadgets-legacy.yml
 
-❌ messages.yml
+❌ messages.yml  [Plus tard] 
 
 ✅ miniatures-legacy.yml
 
@@ -24,7 +24,7 @@
 
 ❌ mounts-legacy.yml
 
-❌ music-legacy.yml
+❌ music-legacy.yml  [Plus tard] 
 
 ❌ particle-effects-legacy.yml
 
@@ -32,6 +32,6 @@
 
 ❌ statuses.yml
 
-❌ treasure-chests-legacy.yml
+❌ treasure-chests-legacy.yml  [Plus tard] 
 ___
 traduit 100% à la mains (sans chatgpt)
