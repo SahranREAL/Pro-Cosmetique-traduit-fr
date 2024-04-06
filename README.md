@@ -34,3 +34,4 @@
 
 ❌ treasure-chests-legacy.yml
 ___
+traduit 100% à la mains (sans chatgpt)
