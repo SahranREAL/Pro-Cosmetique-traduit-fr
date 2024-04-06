@@ -2,7 +2,7 @@
 
 ## traduction 37.5%
 
-❌ arrow-effects-legacy.yml  [ANNULE]
+❌ arrow-effects-legacy.yml  [Plus tard] 
 
 ✅ balloons-legacy.yml
 
@@ -10,7 +10,7 @@
 
 ✅ config-legacy.yml
 
-❌ death-effects-legacy.yml  [ANNULE] 
+❌ death-effects-legacy.yml  [Plus tard] 
 
 ✅ emotes-legacy.yml
 
